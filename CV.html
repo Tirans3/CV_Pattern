@@ -23,20 +23,34 @@
             height: 25cm;
         }
         
+        .papa {
+            padding-block-start: 5%;
+            padding-inline-start: 7%;
+        }
+        
         .display {
-            width: 80px;
-            height: 80px;
+            height: 100px;
             margin: 30px;
             box-shadow: 1 1;
             display: inline-block;
         }
         
-        .box1 {}
+        .box1 {
+            padding: 0%;
+            width: 150px;
+        }
         
         .box2 {
-            margin-left: 40%;
             border: 1px solid;
-            width: 10cm;
+            margin-right: 0%;
+            margin-left: 16%;
+            width: 330px;
+            background: rgb(220, 220, 220);
+        }
+        
+        .tox {
+            margin: 0%;
+            padding-left: 5%;
         }
     </style>
 
@@ -44,15 +58,20 @@
 
 <body>
     <page size="A4">
+        <div class="papa">
+            <div class="display box1">
+                <h1>Tiran<br>Araqelyan</h1>
 
-        <div class="display box1">
-
-            <h1>Tiran <br> Araqelyan</h1>
+            </div>
+            <div class="display  box2">
+                <p class="tox">Tel: (+374) 77-24-62-48 </p>
+                <P class="tox">Email: tirans3@mail.ru</P>
+                <P class="tox">Address: Region ,Erevan</P>
+                <P class="tox">Street Shirak, 24 building</P>
+                <P class="tox">Date of Birth:18 August 1992</P>
+            </div>
         </div>
-        <div class="display  box2">
-            <p> </p>
-        </div>
-        <hr>
+        <hr width="80%">
     </page>
 
 
