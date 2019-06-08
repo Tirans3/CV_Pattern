@@ -1,4 +1,4 @@
 
   
- <img  src="/Images/CV.JPG" >
+ <img  src="Tirans3/Images/CV.JPG" >
   
